@@ -6,7 +6,7 @@ const ProductReviews = () => {
         <h1 className="md:mx-36 font-semibold text-3xl text-[#12305B] mb-8">
           Product Reviews
         </h1>
-        <div className="flex flex-wrap gap-5 justify-center md:justify-start md:mx-32 mb-24">
+        <div className="flex flex-col gap-5 justify-center md:justify-start md:mx-32 mb-24">
           {Array(4)
             .fill()
             .map((_, index) => (
