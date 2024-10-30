@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import ProductReviews from "../components/Home/ProductReviews";
-import Cta from "../components/Home/CTA";
+import Cta from "../components/Home/Cta";
 
 import bgImage from "../assets/homebg.png";
 
