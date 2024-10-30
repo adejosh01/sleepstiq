@@ -6,13 +6,13 @@ const ProductReviews = () => {
         <h1 className="md:mx-36 font-semibold text-3xl text-[#12305B] mb-8">
           Product Reviews
         </h1>
-        <div className="flex flex-col gap-5 justify-center md:justify-start md:mx-32 mb-24">
+        <div className="flex flex-col md:flex-row w-full gap-5 justify-center md:justify-start md:mx-32 mb-24">
           {Array(4)
             .fill()
             .map((_, index) => (
               <div
                 key={index}
-                className="flex flex-col text-base rounded-md shadow-lg w-full  md:max-w-[350px] text-stone-600"
+                className="flex flex-col text-base rounded-md shadow-lg w-full  md:max-w-[400px] text-stone-600"
               >
                 <img
                   src={rectangle}
