@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 
 
-import Faqs from "./pages/FAQS"
+import Faqs from "./pages/Faqs"
 import Footer from "./components/Footer"
 
 
